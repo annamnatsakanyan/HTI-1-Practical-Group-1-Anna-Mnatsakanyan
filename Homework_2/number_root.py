@@ -1,4 +1,4 @@
-num = int(input("enter a number: "))
+numbers = int(input("enter a number: "))
 
 
 def number_root(num):
@@ -13,4 +13,4 @@ def number_root(num):
     return sum
 
 
-print(number_root(num))
+print(number_root(numbers))
