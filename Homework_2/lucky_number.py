@@ -1,5 +1,5 @@
-num = input("enter a number: ")
-num = list(num)
+numbers = input("enter a number: ")
+numbers = list(numbers)
 
 
 def lucky_number(num):
@@ -15,7 +15,5 @@ def lucky_number(num):
     else:
         print("No")
 
-    return sum_evens, sum_odds
 
-
-lucky_number(num)
+lucky_number(numbers)

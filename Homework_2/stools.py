@@ -1,4 +1,4 @@
-height = input("enter the numbers: ").split()
+students_height = input("enter the numbers: ").split()
 
 
 def stools(height):
@@ -14,4 +14,4 @@ def stools(height):
     return sum
 
 
-print(stools(height))
+print(stools(students_height))
