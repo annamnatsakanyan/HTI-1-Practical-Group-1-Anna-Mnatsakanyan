@@ -8,5 +8,5 @@ def missing_number(num):
     return _missing_number
 
 
-numbers = [int(elem) for elem in input().split()]
+numbers = [int(elem) for elem in input("enter the numbers: ").split()]
 print(missing_number(numbers))
