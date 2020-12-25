@@ -1,10 +1,13 @@
 def is_palindrom(text):
     if len(text) < 1:
-        return "Yes"
+        return True
     if text[0] == text[-1]:
-        return is_palindrom(text[1:len(text) - 1])
-    return "No"
+        return is_palindrom(text[1:- 1])
+    return False
 
 
 text_input = input("enter some text: ")
-print(is_palindrom(text_input))
+if is_palindrom(text_input):
+    print("Yes")
+else:
+    print("No")
