@@ -8,6 +8,7 @@ def numbers_gen(start, stop):
         for b in str(a):
             if int(b) % 2 == 0:
                 all_odd = False
+                break
         if all_odd:
             yield a
         all_odd = True
